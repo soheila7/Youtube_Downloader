@@ -1,6 +1,30 @@
 # 🎬 YouTube Video Downloader using yt-dlp
 
-This Python script allows you to download specific sections of YouTube videos with a selected format and shows a progress bar using `tqdm`.
+Welcome to the YouTube Downloader Project! In this project, you will develop a Python application that allows users to download YouTube videos for offline viewing. Your mission is to create a Python script that takes a YouTube video URL as input and downloads the video to the user's local system. This project will provide a hands-on experience with the yt_dlp library, user input handling, and feedback mechanisms such as a download progress bar by using `tqdm`.
+
+Users should be able to run YouTube Downloader from the command line or use it as a module in other Python scripts. Here are the basic steps to use the tool:
+
+```
+python youtube_downloader.py <youtube-url> <video-quality> <output-directory>
+```
+
+You can also use argparse to parse the command line arguments. The following is an example of how to use argparse to parse the command line arguments:
+
+```
+python youtube_downloader.py --url <youtube-url> --quality <video-quality> --output <output-directory>
+```
+
+And the video(s) will be downloaded to the specified output directory.
+
+## ✅ Learning Objectives
+By completing this project, you will:
+
+- Learn to use the yt_dlp library to interact with YouTube content.
+- Understand how to filter and select video streams based on parameters like resolution and file extension.
+- Create a command-line interface (CLI) for user interaction.
+- Implement a progress bar to show download progress.
+- Practice exception handling for a robust application.
+- Manage file input/output in Python.
 
 ## ✅ Features
 
@@ -13,6 +37,12 @@ This Python script allows you to download specific sections of YouTube videos wi
 
 ---
 
+## How to Use the yt_dlp Library
+You are encouraged to use the yt_dlp library for this project, which is a Python library for interfacing with YouTube content. It allows you to query metadata about videos, streams, and playlists; as well as download video and audio streams.
+
+To learn more about yt_dlp, you can explore the official documentation. It will guide you through the process of using yt_dlp and help you implement the required features for the project. 
+
+---
 ## 🧰 Requirements
 
 Make sure you have the following installed:
