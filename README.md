@@ -23,7 +23,6 @@ By completing this project, you will:
 - Understand how to filter and select video streams based on parameters like resolution and file extension.
 - Create a command-line interface (CLI) for user interaction.
 - Implement a progress bar to show download progress.
-- Practice exception handling for a robust application.
 - Manage file input/output in Python.
 
 ## ✅ Features
